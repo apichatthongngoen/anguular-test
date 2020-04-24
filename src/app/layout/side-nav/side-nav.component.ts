@@ -22,6 +22,8 @@ import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
   styleUrls: ['./side-nav.component.scss']
 })
 export class SideNavComponent implements OnDestroy {
+
+
   faPrescription = faPrescription;
 
   faMoneyCheckAlt = faMoneyCheckAlt;

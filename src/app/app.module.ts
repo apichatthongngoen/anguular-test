@@ -23,7 +23,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-
+import { MatMenuModule } from '@angular/material/menu';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 
@@ -48,7 +49,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatFormFieldModule,
     MatInputModule,
     MatCheckboxModule,
-    AdminModule
+    AdminModule,
+    MatMenuModule,
+    MatGridListModule
 
   ],
   providers: [],
