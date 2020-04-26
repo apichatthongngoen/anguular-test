@@ -1,9 +1,47 @@
 .money-card {
-  margin-left: 8px;
-  margin-top: 90px;
-  min-width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 0px;
+  width: 100%;
+
 }
 
 table {
   width: 100%;
+}
+
+mat-grid-tile {
+  background-color: red;
+}
+
+// .table-container {
+//   height: 680px;
+//   width: 100%;
+//   overflow: auto;
+// }
+
+// .grid-list-container {
+//   height: calc(100% - 500px);
+
+// }
+
+// .grid-tile-container {
+//   height: calc(100% - 370px);
+
+// }
+
+.table-container {
+  height: calc(100vh - 340px);
+  width: 100%;
+  overflow: auto;
+}
+
+.grid-list-container {
+  height: calc(100vh - 200px);
+
+}
+
+.grid-tile-container {
+  height: calc(100vh - 200px);
+
 }

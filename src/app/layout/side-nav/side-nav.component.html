@@ -33,12 +33,12 @@
       <mat-nav-list>
         <!-- <a routerLink="/" *ngFor="let nav of fillerNav">{{nav}}</a> -->
 
-        <mat-list-item [matMenuTriggerFor]="animals">
+        <mat-list-item [matMenuTriggerFor]="money">
           <fa-icon [icon]="faMoneyCheckAlt" size="lg" pull="left"></fa-icon>
           <span>การเงิน</span>
         </mat-list-item>
 
-        <mat-list-item [matMenuTriggerFor]="animals">
+        <mat-list-item [matMenuTriggerFor]="pharmacy">
           <fa-icon [icon]="faPrescription" size="lg" pull="left"></fa-icon>
           <span>ห้องยา</span>
         </mat-list-item>
@@ -57,7 +57,12 @@
 
 </div>
 
-<mat-menu #animals="matMenu">
-  <button mat-menu-item>Vertebrates</button>
-  <button mat-menu-item>Invertebrates</button>
+<mat-menu #money="matMenu">
+  <button mat-menu-item routerLink="money">คิวการเงิน</button>
+</mat-menu>
+
+<mat-menu #pharmacy="matMenu">
+  <button mat-menu-item routerLink="admin">พิมพ์สติ๊กเกอร์</button>
+  <button mat-menu-item routerLink="admin">คิวเรียกรับยา</button>
+
 </mat-menu>

@@ -10,6 +10,7 @@ import { MoneyQueueComponent } from './money/money-queue/money-queue.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
         MatTableModule,
         MatCardModule,
         MatCheckboxModule,
-        MatGridListModule
+        MatGridListModule,
+        MatToolbarModule
     ],
     providers: [],
     declarations: [ContentComponent, MoneyQueueComponent]
